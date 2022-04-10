@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디자이너 밥주기 </title>
+
+    <!-- CSS리셋 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- 오픈 그래프 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="unlock beach" />
+    <meta property="og:title" content="unlock webpage" />
+    <meta property="og:description" content="춤 온라인 클래스 소개 페이지 입니다." />
+    <!-- <meta property="og:image" content="./images/500.png"/> -->
+    <!-- <meta property="og:url" content="https://OBSpage.co.kr" /> -->
+
+    <!--트위터 오픈 그래프  -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="unlock beach" />
+    <meta property="twitter:title" content="unlock webpage"/>
+    <meta property="twitter:description" content="춤 온라인 클래스 소개 페이지 입니다." />
+    <meta property="twitter:image" content="./images/500.png" />
+    <meta property="twitter:url" content="https://OBSpage.co.kr" />
+
+    <!-- <link rel="icon" href="./favicon.png" /> -->
+
+    <!--Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Google material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="CSS/main.css">
+
+    <!-- GSAP & LODASH -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollToPlugin.min.js" integrity="sha512-+ttrmEd3X+83MZZiqXnhD8J9Thp89psMxpRhCwTDo412Vu9cjFPC8nxpoqz4Q0eRWYeCbWnFHvCLsiZ/jr52fA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script defer src="JS/main.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <div class="inner">
+            <a href="javascript:void(0)" class="logo">Unlock</a>
+            <ul class="menu">
+                <li><a href="javascript:void(0)">소개</a></li>
+                <li><a href="javascript:void(0)">클래스</a></li>
+                <li><a href="javascript:void(0)">이용권 정보</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" />
+                <div class="material-icons">search</div>
+            </div>
+        </div>
+    </header>
+
+<!--VISUAL -->
+    <section class="visual">
+        <div class="inner">
+            <div class="fade-in">
+                <img src="./images/visual1.jpeg" alt="visual1이미지" />
+            </div>
+            <div class="intro"> 
+                <div class="intro__title fade-in">Herion 안무 클래스<br> 2월 오픈!<br></div>
+                <div class="intro__guide fade-in">Herion 선생님의 힙한 안무가 궁금하시다면<br>2월 클래스 오픈을 기대하세요!</div>
+                <a href="javscript:voie(0)" class="btn fade-in">자세히 보기</a>
+            </div>  
+        </div>  
+            
+    </section>
+    <!-- MAIN -->
+    <section class="main">
+        <div class="inner">
+                    <div class="title">
+                        클래스 Level guide
+                    </div>
+
+                <ul class="guide">
+                    <li>
+                        <img src="images/guide_image1.jpg" alt="입문자 이미지" />
+                        <div class="guide__title">입문자</div>
+                        <div class="guide-__inform">
+                        춤을 처음 접하는 입문자 Level!!<br>
+                        너무 걱정하지 마세요 저희 서비스는 입문자분들을 위한<br>
+                        기본기 클래스를 제공합니다</div>
+                    </li>
+                    <li>
+                        <img src="images/guide_image2.jpg" alt="비기너 이미지" />
+                        <div class="guide__title">비기너</div>
+                        <div class="guide-__inform">
+                        춤을 어느정도 춰본 비기너Levle!!<br>
+                        비기너 분들을 위한 맞춤 비기너 클래스가 있습니다<br>
+                        클래스를 수강하고 댄서 클래스로 갑시다!</div>
+                    </li>
+                    <li>
+                        <img src="images/guide_image3.jpg" alt="댄서 이미지" />
+                        <div class="guide__title">댄서</div>
+                        <div class="guide-__inform">
+                            전문적인 과정을 통해 성장한 댄서Level!!<br>
+                            댄서분들을 위한 개성있는 클래스가<br>
+                            많이 준비되어있습니다!
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="dance-class">
+                    <div class="title">클래스</div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/class_image1.jpg" alt="클래스 이미지1" />
+                                <a href="javascript:void(0)" class="btn">왁킹</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/class_image2.jpg" class="steezy" alt="클래스 이미지2" />
+                                <a href="javascript:void(0)" class="btn">방송 댄스</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/class_image3.jpeg" alt="클래스 이미지3" />
+                                <a href="javascript:void(0)" class="btn">힙합</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination">
+                        <div class="swiper-prev">&#8249;</div>
+                        <div class="swiper-next">&#8250;</div>
+                    </div>
+                </div>
+
+
+            <div class="new-class">
+                <div class="title">신규 클래스</div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/newClass1.jpeg" alt="신규 클래스 이미지1">
+                            <a href="javscript:void(0)" class="btn">Jay 안무 클래스</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination">
+                    <div class="swiper-prev">&#8249;</div>
+                    <div class="swiper-next">&#8250;</div>
+                </div>
+            </div>
+
+            <div class="recommend-class">
+                <div class="title">추천 클래스</div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/recomendClass1.JPG" alt="추천 클래스 이미지1">
+                                <div class="recommend">
+                                    <div class="recommend__title">
+                                        독보적인 스타일의 왁킹 ToTo 클래스
+                                    </div>
+                                    <div class="recommend__guide">
+                                        매주 월요일 17시 업로드
+                                    </div>
+                                    <div class="recommend__slide">
+                                        ToTo 클래스
+                                    </div>
+                                    <div class="recommend__nextImg">
+                                        <img src="images/recomendClass2.jpg" alt="추천 클래스 이미지2(다음)">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="images/recomendClass2.jpg" alt="신규 클래스 이미지2">
+                                <div class="recommend">
+                                    <div class="recommend__title">
+                                        비보이계의 전설 비보잉 Thesis 클래스
+                                    </div>
+                                    <div class="recommend__guide">
+                                        매주 금요일 17시 업로드
+                                    </div>
+                                    <div class="recommend__slide">
+                                        Thesis클래스
+                                    </div>
+                                    <div class="recommend__nextImg">
+                                        <img src="images/recomendClass1.jpg" alt="추천 클래스 이미지2(다음)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination">
+                        <div class="swiper-prev">&#8249;</div>
+                        <div class="swiper-next">&#8250;</div>
+                    </div>
+            </div>
+            
+    </section> 
+
+    <section class="useInform">
+        <div class="inner">
+            <div class="title">이용권 정보</div> 
+            <ul class="inform">
+                <li class="inform__box">
+                    <div class="inform__triangle"></div>
+                    <div class="inform__recommend">추천</div>
+                    <div class="infrom__title">무제한 이용권</div>
+                    <div class="inform__guide">첫달 무료로 무제한을 이용해보세요!</div>
+                    <div class="inform__price">월간 이용권 <span class="price">월 70,000원</span></div>
+                </li>
+                <li class="inform__box">
+                    <div class="infrom__title">BIG 5 클래스 이용권</div>
+                    <div class="inform__guide">원하는 5개의 클래스를 이용!</div>
+                    <div class="inform__price">월간 이용권 <span class="price">월 50,000원</span></div>
+                    <div></div>
+                </li>
+                <li class="inform__box">
+                    <div class="infrom__title">BIG 3 클래스 이용권</div>
+                    <div class="inform__guide">원하는 3개의 클래스 이용!</div>
+                    <div class="inform__price">월간 이용권 <span class="price">월 30,000원</span></div>
+                    <div></div>
+                </li>
+                <li class="inform__box">
+                    <div class="infrom__title">1 Day 클래스 이용권</div>
+                    <div class="inform__guide">원하는 1개의 클래스 이용!</div>
+                    <div class="inform__price">월간 이용권 <span class="price">월 10,000원</span></div>
+                    <div></div>
+                </li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+            <ul class="inner">
+                <li class="maker">
+                    <ul>
+                        <li>(주) 안무정화</li>
+                        <li>대표이사:Unlock | 사업자등록번호:123-42-04321</li>
+                        <li>경거도 부천시 오정로 428,1층</li>
+                        <li>개인 정보 관리 책임자:홍길동</li>
+                    </ul>
+                </li>
+                <li class="contact">
+                    <ul>
+                        <li>CONTACT</li>
+                        <li>
+                            <img src="images/facbook_logo.jpg" alt="페이스북 로고 이미지">
+                            <img src="images/Instagram_logo.svg.png" alt="인스타그램 로고 이미지">
+                            <img src="images/youtube_logo.jpg" alt="유투브 로고 이미지">
+                        </li>
+                        <li class="inquiry">
+                            <ul>
+                                <li class="inquiry__title">전화문의</li>
+                                <li class="inquiry__inform">070-2312-1124</li>
+                            </ul>
+                            <ul>
+                                <li class="inquiry__title">이메일 문의</li>
+                                <li class="inquiry__inform">abc123@naver.com</li>
+                            </ul>
+                        </li>
+                        <li class="working">MON - FRI 09:00 ~ 18:00 &nbsp; 주말,공휴일 휴무 &nbsp; BREAK TIME : 12:30 ~ 13:30</li>
+                    </ul>
+                </li>
+                <li class="processing">
+                    <ul>
+                        <li class="processing__title">개인정보 처리 방침</li>
+                        <li><a href="javscript:void(0)" target="/">이용약관</a></li>
+                        <li><a href="javscript:void(0)" target="/">고객센터</a></li>
+                        <li><a href="javscript:void(0)" target="/">이벤트</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </footer>
+    
+    <div id="to-top">
+        <div class="material-icons">arrow_upward</div>
+    </div>
+</div>
+    
+</body>
+</html>
