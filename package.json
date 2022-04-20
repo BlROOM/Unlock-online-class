@@ -1,0 +1,27 @@
+{
+  "name": "designer-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlROOM/Unlock-online-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlROOM/Unlock-online-class/issues"
+  },
+  "homepage": "https://github.com/BlROOM/Unlock-online-class#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
